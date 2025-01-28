@@ -1,6 +1,10 @@
-# Preparation for workshop
+# Sweep detection + machine learning exercise
 
-Most of the programs to be used during the workshop work on a Unix/Unix-like system, so if your laptop runs Linux or mac OS you should be able to skip to the second section and begin installing the software directly. Windows users, on the other hand, need to make some adjustments before installing the other packages.
+The instructions for this exercise are found in the sweeps.pdf file. So you can just open that up and work your way through it when you are ready. But first, there are some things you will need to install:
+
+# Preparation for sweep detection exercise
+
+All of the programs to be used during this exercise run on a Unix, so if your laptop runs Linux or mac OS you should be able to skip to the second section and begin installing the software directly. Windows users, on the other hand, need to make some adjustments before installing the other packages.
 
 Throughout this document, every line that starts with the `>` (greater than) character needs to be entered into the command line of your terminal.
 
