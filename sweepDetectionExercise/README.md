@@ -29,14 +29,20 @@ Although it is not necessary, it is highly recommended that you create a virtual
 
 #### Linux and WSL users:
 > mkdir -p ~/miniconda3
+> 
 > wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+> 
 > bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+> 
 > rm -rf ~/miniconda3/miniconda.sh
 
 #### mac users:
 > mkdir -p ~/miniconda3
+> 
 > curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
+>
 > bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+>
 > rm -rf ~/miniconda3/miniconda.sh
 
 ### 2b) Install `diploSHIC`, a machine learning method for sweep detection.
@@ -46,19 +52,26 @@ Although it is not necessary, it is highly recommended that you create a virtual
 
 #### Now activate the virtual environment and install diploSHIC:
 > conda activate diploshic #use this command whenever you need to run diploshic
+> 
 > pip install diploshic
+> 
 > diploSHIC -h #verify that installation was successful
 
 
 #### In some cases, installing diploSHIC via pip ends up generating an installation error. If this is your case, first remove diploSHIC using the following commands:
 > conda env remove --name diploshic
+> 
 > pip cache purge
 
 #### Then restart the terminal and then enter the following commands
 > conda create -n diploshic python=3.9 --yes
+> 
 > conda activate diploshic
+> 
 > sudo apt-get install gfortran
+> 
 > conda install numpy
+> 
 > pip install --no-cache-dir diploshic
 
 #### Use the following command to verify that your install was successful
@@ -69,7 +82,9 @@ Although it is not necessary, it is highly recommended that you create a virtual
 
 ### 2b) Install the coalescent simulator `discoal`
 > git clone https://github.com/kr-colab/discoal.git
+> 
 > cd discoal
+> 
 > make discoal
 
 #### Use the following command to verify that your discoal install was successful
