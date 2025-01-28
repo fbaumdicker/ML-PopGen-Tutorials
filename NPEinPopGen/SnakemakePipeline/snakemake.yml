@@ -1,0 +1,19 @@
+name: popgensbi_snakemake
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - snakemake
+  - pytorch
+  - nbclassic
+  - openblas
+  - scipy[version='<1.11']
+  - matplotlib
+  - numpy[version='>=1.23']
+  - conda-forge::scikit-allel
+  - dask
+  - pip
+  - pip:
+    - sbi==v0.22.0
+    - dinf
+    - msprime
