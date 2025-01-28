@@ -1,0 +1,36 @@
+import os
+import pandas as pd
+
+configfile: "config/neutral_simulation.yaml"
+models=list(config['model'].keys())
+data_path=config['datadir']
+postdir = config['posteriordir']
+
+# rule_files = [os.path.join("rules/", f) for f in os.listdir("workflow/rules/") if f.endswith(".smk")]
+# for rule in rule_files:
+#     include: rule
+
+# Define the final target
+include: "rules/simulate_scenarios.smk"
+include: "rules/train_posteriors.smk"
+
+# Define the final target (example)
+rule Posterior:
+    input:
+        expand("{post_path}/sumstat/", post_path=[postdir]),
+        expand("{post_path}/embedding/",post_path=[postdir]),
+
+# rule all:
+#     input:
+#         expand("{data_path}/{model}/{model}_simul_parameters.json",model=models,data_path=[data_path]),
+#         expand("{data_path}/{model}/{model}_demo_parameters.csv",model=models,data_path=[data_path]),
+#         expand("{data_path}/{model}/checked_SNPs/",model=models,data_path=[data_path]),
+#         expand("{data_path}/{model}/SNP400/",model=models,data_path=[data_path]),
+#         expand("{data_path}/{model}/preprocessed_data/filtered_population_sizes.csv",model=models,data_path=[data_path]),
+#         expand("{data_path}/{model}/preprocessed_data/sum_stat.csv",model=models,data_path=[data_path]),
+#         expand("{data_path}/train/training_param.json",data_path=[data_path]),
+#         expand("{data_path}/train/train_training_param.json",data_path=[data_path]),
+#         expand("{data_path}/train/train_preprocessed_param.csv",data_path=[data_path]),
+#         expand("{data_path}/{model}/dataset_4_inference/", model=models,data_path=[data_path]),
+#         expand("{post_path}/sumstat/", post_path=[postdir]),
+#         expand("{post_path}/embedding/",post_path=[postdir]),

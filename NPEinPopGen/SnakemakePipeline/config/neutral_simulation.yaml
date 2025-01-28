@@ -1,0 +1,13 @@
+model:
+  "train":
+    num_sim: 20
+  "test":
+    num_sim: 5
+num_rep: 10
+datadir: "data/neutral_simul"
+
+posteriordir: "data/neutral_simul/SNPE_posteriors"
+sample: 100
+use_summary_statistics: True
+use_embedding_net: True
+embedding_net: "EXCNN"
