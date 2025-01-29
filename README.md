@@ -16,7 +16,7 @@ Below is a list of the available workshops in this repository:
 1. **[diploSHIC Workshop](sweepDetectionExercise/README.md)**  
    *Description*: Learn how to use diploSHIC to detect and classify selective sweeps from population genetic.
 
-2. **[SBI Workshop](SBI_Workshop/README.md)**  
+2. **[SBI Workshop](NPEinPopGen/README.md)**
    *Description*: Explore how neural posterior estimation can be used to infer ancestral population sizes from genetic data.
 
 ## Getting Started
