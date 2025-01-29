@@ -13,8 +13,8 @@ The repository is organized into subfolders, each corresponding to a specific to
 
 Below is a list of the available workshops in this repository:
 
-1. **[Tool1 Workshop](Tool1_Workshop/README.md)**  
-   *Description*: Learn how to use Tool1 for ...
+1. **[diploSHIC Workshop](sweepDetectionExercise/README.md)**  
+   *Description*: Learn how to use diploSHIC to detect and classify selective sweeps from population genetic.
 
 2. **[SBI Workshop](SBI_Workshop/README.md)**  
    *Description*: Explore how neural posterior estimation can be used to infer ancestral population sizes from genetic data.
