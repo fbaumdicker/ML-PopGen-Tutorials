@@ -4,6 +4,9 @@
 
 The ProbGen meeting includes a workshop  that will run on the first day pre-meeting. The workshop consists of talks and demo's including practical exercises for PoMoBalance based on RevBayes tutorial.
 
+The PoMoBalance tutorial can be found at: 
+* [PoMoBalance](https://revbayes.github.io/tutorials/pomobalance/)
+
 ### Software
 
 Before the pre-course starts, please install the following software on your own computer:
