@@ -9,10 +9,10 @@ The PoMoBalance tutorial can be found at:
 
 ### Software
 
-Before the pre-course starts, please install the following software on your own computer:
+Before the workshop starts, please install the following software on your own computer:
 
 * RevBayes. For this workshop, we will be using the ```development``` RevBayes branch, where the polymorphism-aware models are all available. Make sure you follow the instructions below to install RevBayes.
-Other helpful software 
+Other helpful software: 
 * [Tracer](https://beast.community/tracer)
 * [FigTree](https://github.com/rambaut/figtree/releases)
 * [R](https://www.r-project.org/) or [RStudio](https://rstudio.com/) with the package **Rcpp**
