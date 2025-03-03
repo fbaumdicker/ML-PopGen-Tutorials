@@ -19,6 +19,9 @@ Below is a list of the available workshops in this repository:
 2. **[SBI Workshop](SBI_Workshop/README.md)**  
    *Description*: Explore how neural posterior estimation can be used to infer ancestral population sizes from genetic data.
 
+3. **[PoMoBalance](PoMoBalance.md)**  
+   *Description*: Explore how estimate parameters for Balancing Selection with Polymorphism-aware Phylogenetic Models
+
 ## Getting Started
 
 To get started, clone this repository and navigate to the workshop folder you are interested in.
