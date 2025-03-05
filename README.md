@@ -13,11 +13,11 @@ The repository is organized into subfolders, each corresponding to a specific to
 
 Below is a list of the available workshops in this repository:
 
-1. **[Tool1 Workshop](Tool1_Workshop/README.md)**  
-   *Description*: Learn how to use Tool1 for ...
-
-2. **[SBI Workshop](SBI_Workshop/README.md)**  
+1. **[SBI Workshop](SBI_Workshop/README.md)**  
    *Description*: Explore how neural posterior estimation can be used to infer ancestral population sizes from genetic data.
+
+2. **[IntroUNET](https://github.com/SchriderLab/popgenml/blob/main/tutorials/introUNet_tutorial.ipynb)**  
+   *Description*: Learn how to use IntroUNET to detect genomic regions affected by introgression and pull out introgressed haplotpyes.
 
 3. **[PoMoBalance](PoMoBalance.md)**  
    *Description*: Explore how estimate parameters for Balancing Selection with Polymorphism-aware Phylogenetic Models
